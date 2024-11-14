@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Detailed Sections</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-brand">ThinkTech TT</div>
+        <div class="navbar-toggle" id="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#services">Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#web-development">Web Development</a></li>
+                    <li><a href="#app-development">App Development</a></li>
+                    <li><a href="#seo">SEO Optimization</a></li>
+                </ul>
+            </li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Sections -->
+    <section id="home" class="section">
+        <h2>Home</h2>
+        <p>Welcome to our website! We’re excited to share our journey, services, and latest projects with you.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Our company specializes in digital solutions that transform businesses. From web development to mobile applications, we have a wide range of expertise.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <p>Explore the comprehensive services we offer to elevate your online presence and drive results.</p>
+    </section>
+
+    <section id="web-development" class="section">
+        <h3>Web Development</h3>
+        <p>We build responsive, visually stunning websites tailored to meet your business goals and user needs.</p>
+    </section>
+
+    <section id="app-development" class="section">
+        <h3>App Development</h3>
+        <p>Our mobile solutions are designed to provide seamless experiences across iOS and Android platforms.</p>
+    </section>
+
+    <section id="seo" class="section">
+        <h3>SEO Optimization</h3>
+        <p>Our SEO strategies help increase your visibility on search engines, driving more traffic to your website.</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <p>Take a look at some of the amazing projects we've been privileged to work on, showcasing our diverse skill set and creativity.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Get in touch! We’d love to hear from you and discuss how we can work together on your next project.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
